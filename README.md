@@ -124,13 +124,15 @@ command,center,tlist
 5;,500@-48,2460171.977211 2460234.9166
 19;,561,2460101.977211 2460204.9166
 ```
+Contents of the output file (truncated):
+![Output](output.png "Output of the above query.")
 In this case the input file is expected in csv format, and must
 contain a header line. The header keywords must be the argument names,
 e.g.: center, sitecoord, rangeunits, etc. See
 ```shell
 ./horizons_query.sh --printarguments
 ```
-for all options.
+for all options.<br>
 
 ## Limitations
 
